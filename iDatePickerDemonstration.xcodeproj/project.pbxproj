@@ -12,6 +12,13 @@
 		1F4FD5F020C0EA1B008014A2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4FD5EE20C0EA1B008014A2 /* Main.storyboard */; };
 		1F4FD5F220C0EA21008014A2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1F4FD5F120C0EA21008014A2 /* Assets.xcassets */; };
 		1F4FD5F520C0EA21008014A2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1F4FD5F320C0EA21008014A2 /* LaunchScreen.storyboard */; };
+		1F4FD60220C0EDB0008014A2 /* RxCocoa.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4FD5FE20C0EDB0008014A2 /* RxCocoa.framework */; };
+		1F4FD60320C0EDB0008014A2 /* RxSwift.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4FD5FF20C0EDB0008014A2 /* RxSwift.framework */; };
+		1F4FD60520C0EDB0008014A2 /* RxBlocking.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 1F4FD60120C0EDB0008014A2 /* RxBlocking.framework */; };
+		1F4FD60720C0EE53008014A2 /* DatePicker.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FD60620C0EE53008014A2 /* DatePicker.swift */; };
+		1F4FD60920C0EED1008014A2 /* Utils.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FD60820C0EED1008014A2 /* Utils.swift */; };
+		1F4FD60B20C0EF56008014A2 /* Theme.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FD60A20C0EF56008014A2 /* Theme.swift */; };
+		1F4FD60F20C0F2C8008014A2 /* BaseInfoDatePickVC.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1F4FD60E20C0F2C8008014A2 /* BaseInfoDatePickVC.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -22,6 +29,15 @@
 		1F4FD5F120C0EA21008014A2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
 		1F4FD5F420C0EA21008014A2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
 		1F4FD5F620C0EA21008014A2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1F4FD5FE20C0EDB0008014A2 /* RxCocoa.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxCocoa.framework; path = Carthage/Build/iOS/RxCocoa.framework; sourceTree = "<group>"; };
+		1F4FD5FF20C0EDB0008014A2 /* RxSwift.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxSwift.framework; path = Carthage/Build/iOS/RxSwift.framework; sourceTree = "<group>"; };
+		1F4FD60020C0EDB0008014A2 /* RxTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxTest.framework; path = Carthage/Build/iOS/RxTest.framework; sourceTree = "<group>"; };
+		1F4FD60120C0EDB0008014A2 /* RxBlocking.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = RxBlocking.framework; path = Carthage/Build/iOS/RxBlocking.framework; sourceTree = "<group>"; };
+		1F4FD60620C0EE53008014A2 /* DatePicker.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = DatePicker.swift; sourceTree = "<group>"; };
+		1F4FD60820C0EED1008014A2 /* Utils.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Utils.swift; sourceTree = "<group>"; };
+		1F4FD60A20C0EF56008014A2 /* Theme.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Theme.swift; sourceTree = "<group>"; };
+		1F4FD60C20C0F215008014A2 /* XCTest.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = XCTest.framework; path = Platforms/iPhoneOS.platform/Developer/Library/Frameworks/XCTest.framework; sourceTree = DEVELOPER_DIR; };
+		1F4FD60E20C0F2C8008014A2 /* BaseInfoDatePickVC.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = BaseInfoDatePickVC.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -29,6 +45,9 @@
 			isa = PBXFrameworksBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				1F4FD60220C0EDB0008014A2 /* RxCocoa.framework in Frameworks */,
+				1F4FD60320C0EDB0008014A2 /* RxSwift.framework in Frameworks */,
+				1F4FD60520C0EDB0008014A2 /* RxBlocking.framework in Frameworks */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -40,6 +59,7 @@
 			children = (
 				1F4FD5E920C0EA1B008014A2 /* iDatePickerDemonstration */,
 				1F4FD5E820C0EA1B008014A2 /* Products */,
+				1F4FD5FD20C0EDB0008014A2 /* Frameworks */,
 			);
 			sourceTree = "<group>";
 		};
@@ -55,6 +75,10 @@
 			isa = PBXGroup;
 			children = (
 				1F4FD5EA20C0EA1B008014A2 /* AppDelegate.swift */,
+				1F4FD60E20C0F2C8008014A2 /* BaseInfoDatePickVC.swift */,
+				1F4FD60620C0EE53008014A2 /* DatePicker.swift */,
+				1F4FD60A20C0EF56008014A2 /* Theme.swift */,
+				1F4FD60820C0EED1008014A2 /* Utils.swift */,
 				1F4FD5EC20C0EA1B008014A2 /* ViewController.swift */,
 				1F4FD5EE20C0EA1B008014A2 /* Main.storyboard */,
 				1F4FD5F120C0EA21008014A2 /* Assets.xcassets */,
@@ -62,6 +86,18 @@
 				1F4FD5F620C0EA21008014A2 /* Info.plist */,
 			);
 			path = iDatePickerDemonstration;
+			sourceTree = "<group>";
+		};
+		1F4FD5FD20C0EDB0008014A2 /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				1F4FD60C20C0F215008014A2 /* XCTest.framework */,
+				1F4FD60120C0EDB0008014A2 /* RxBlocking.framework */,
+				1F4FD5FE20C0EDB0008014A2 /* RxCocoa.framework */,
+				1F4FD5FF20C0EDB0008014A2 /* RxSwift.framework */,
+				1F4FD60020C0EDB0008014A2 /* RxTest.framework */,
+			);
+			name = Frameworks;
 			sourceTree = "<group>";
 		};
 /* End PBXGroup section */
@@ -74,6 +110,7 @@
 				1F4FD5E320C0EA1B008014A2 /* Sources */,
 				1F4FD5E420C0EA1B008014A2 /* Frameworks */,
 				1F4FD5E520C0EA1B008014A2 /* Resources */,
+				1F4FD5FC20C0ED77008014A2 /* ShellScript */,
 			);
 			buildRules = (
 			);
@@ -130,6 +167,28 @@
 		};
 /* End PBXResourcesBuildPhase section */
 
+/* Begin PBXShellScriptBuildPhase section */
+		1F4FD5FC20C0ED77008014A2 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"$(SRCROOT)/Carthage/Build/iOS/RxBlocking.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxCocoa.framework",
+				"$(SRCROOT)/Carthage/Build/iOS/RxSwift.framework",
+			);
+			outputPaths = (
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxBlocking.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxCocoa.framework",
+				"$(BUILT_PRODUCTS_DIR)/$(FRAMEWORKS_FOLDER_PATH)/RxSwift.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "/usr/local/bin/carthage copy-frameworks\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
 /* Begin PBXSourcesBuildPhase section */
 		1F4FD5E320C0EA1B008014A2 /* Sources */ = {
 			isa = PBXSourcesBuildPhase;
@@ -137,6 +196,10 @@
 			files = (
 				1F4FD5ED20C0EA1B008014A2 /* ViewController.swift in Sources */,
 				1F4FD5EB20C0EA1B008014A2 /* AppDelegate.swift in Sources */,
+				1F4FD60F20C0F2C8008014A2 /* BaseInfoDatePickVC.swift in Sources */,
+				1F4FD60B20C0EF56008014A2 /* Theme.swift in Sources */,
+				1F4FD60720C0EE53008014A2 /* DatePicker.swift in Sources */,
+				1F4FD60920C0EED1008014A2 /* Utils.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};
@@ -282,12 +345,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P96PVYDRL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iDatePickerDemonstration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.e-business.iDatePickerDemonstration";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.e-business.ibDatePickerDemonstration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
@@ -300,12 +367,16 @@
 				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
 				CODE_SIGN_STYLE = Automatic;
 				DEVELOPMENT_TEAM = 6P96PVYDRL;
+				FRAMEWORK_SEARCH_PATHS = (
+					"$(inherited)",
+					"$(PROJECT_DIR)/Carthage/Build/iOS",
+				);
 				INFOPLIST_FILE = iDatePickerDemonstration/Info.plist;
 				LD_RUNPATH_SEARCH_PATHS = (
 					"$(inherited)",
 					"@executable_path/Frameworks",
 				);
-				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.e-business.iDatePickerDemonstration";
+				PRODUCT_BUNDLE_IDENTIFIER = "jp.co.e-business.ibDatePickerDemonstration";
 				PRODUCT_NAME = "$(TARGET_NAME)";
 				SWIFT_VERSION = 4.0;
 				TARGETED_DEVICE_FAMILY = "1,2";
